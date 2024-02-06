@@ -1,4 +1,5 @@
 import { Container } from "@/components/Container";
+import { Content } from "@/components/Content";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 
@@ -12,6 +13,8 @@ export default function Home() {
           placeholder="Busque em suas notas"
         />
         <Separator className="text-gray-300/30" />
+
+        <Content/>
       </div>
     </Container>
   );
