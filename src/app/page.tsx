@@ -1,6 +1,7 @@
-import { Container } from "@/components/Container";
-import { NoteCard } from "@/components/Note-Card";
+
+import { Container } from "@/components/container";
 import { NewNoteCard } from "@/components/new-note-card";
+import { NoteCard } from "@/components/note-card";
 
 
 

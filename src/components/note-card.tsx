@@ -1,6 +1,6 @@
 export function NoteCard() {
   return (
-    <div className="overflow-hidden  px-5 bg-slate-800 p-5 rounded-md relative">
+    <div className="rounded-sm bg-slate-800 p-5 space-y-3 overflow-hidden relative hover:ring-2 hover:ring-slate-600 focus-visible:ring-2 focus-visible:ring-lime-400">
       <span className="text-slate-300 font-medium text-sm">Adicionar nota</span>
       <p className="text-slate-400 text-sm leading-6 ">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat
