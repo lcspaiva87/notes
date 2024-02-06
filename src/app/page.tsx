@@ -25,7 +25,7 @@ export default function Home() {
               Grave uma nota em áudio que será convertida para texto
               automaticamente.
             </p>
-            <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/60 to-black/0" />
+            <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/60 to-black/0 pointer-events-none" />
           </div>
           <div className="overflow-hidden  px-5 bg-slate-800 p-5 rounded-md relative">
             <span className="text-slate-300 font-medium text-sm">
@@ -35,7 +35,7 @@ export default function Home() {
               Grave uma nota em áudio que será convertida para texto
               automaticamente.
             </p>
-            <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/60 to-black/0" />
+            <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/60 to-black/0 pointer-events-none" />
           </div>
           <div className="overflow-hidden  px-5 bg-slate-800 p-5 rounded-md relative">
             <span className="text-slate-300 font-medium text-sm">
@@ -45,7 +45,7 @@ export default function Home() {
               Grave uma nota em áudio que será convertida para texto
               automaticamente.
             </p>
-            <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/60 to-black/0" />
+            <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/60 to-black/0 pointer-events-none" />
           </div>
         </div>
       </div>
