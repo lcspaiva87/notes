@@ -1,12 +1,13 @@
+
 import { ArrowUpRight } from "lucide-react";
-import { Button } from "./ui/button";
+
 
 export function NewNoteCard(){
   return(
     <div className={`w-[21.75rem] h-[15.625rem]  px-5 $ bg-slate-700 p-5 rounded-md `}>
-    <Button className="flex relative left-[17.6rem] -top-[1.3rem]">
+    <button className="flex relative left-[17.6rem] -top-[1.3rem]">
       <ArrowUpRight size={16} />
-    </Button>
+    </button>
     <div className="flex flex-col gap-[0.75rem]">
       <span className="text-slate-200 font-medium text-sm">
         Adicionar nota
