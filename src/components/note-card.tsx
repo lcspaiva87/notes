@@ -13,7 +13,7 @@ interface NoteCardProps {
 export function NoteCard({ note }: NoteCardProps) {
   return (
     <Dialog.Root>
-    <Dialog.Trigger className="rounded-md text-left bg-slate-800 flex flex-col p-5 gap-3 overflow-hidden relative hover:ring-2 hover:ring-slate-600 focus-visible:ring-2 focus-visible:ring-lime-400 outline-none">
+    <Dialog.Trigger className="rounded-md text-left bg-slate-800 flex flex-col p-5 gap-3 overflow-hidden relative hover:ring-2 hover:ring-lime-600 focus-visible:ring-2 focus-visible:ring-lime-400 outline-none">
       <span className="text-sm font-medium text-slate-300">
         {formatDistanceToNow(note.date, {
           locale: ptBR,
